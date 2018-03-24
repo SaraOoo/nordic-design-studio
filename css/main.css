@@ -1,0 +1,505 @@
+/*** UNIVERSAL SETTINGS ***/
+body {
+  background: #faf9f5;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  margin-left: 20px;
+  font-weight: 400;
+  display: inline-block;
+  margin: 20px 0 0 10px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  color: black;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  text-align: center;
+  color: black;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Vollkorn', serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+/******** GRID *********/
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width: 600px;
+}
+
+/************ HEADER ************/
+header {
+  height: 65px;
+  width: 1200px;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+#nods-logo {
+  margin-top: 15px;
+  margin-left: -20px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+/************ NAV BAR ************/
+nav {
+  float: right;
+  padding-top: 22px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+
+  margin-left: 15px;
+  color: black;
+}
+
+nav li a:hover {
+  color: #bac6e5;
+}
+
+#you-are-here a {
+  color: #bac6e5;
+}
+/********** MAIN *********/
+main {
+  width: 1200px;
+  margin: auto;
+}
+
+main a {
+  text-decoration: underline;
+  color: black;
+}
+
+
+/*** LANDING PAGE ***/
+/** #hello  #intro {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+} **/
+
+#welcome-headline {
+  height: 25px;
+  margin: auto;
+}
+#welcome-headline h2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+#welcome-headline:after { /* the line under the headline */
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    width: 45%; /* Change width here */
+    padding-top: 0; /* How far down from header it is */
+    border-bottom: 1px solid black; /* Border look */
+}
+
+#intro {
+  margin: auto;
+  height: 60px;
+  margin-top: 35px;
+}
+
+#intro p {
+  text-align: center;
+}
+
+
+/*** ABOUT ***/
+#about-headline {
+  height: 45px;
+  margin: auto;
+}
+
+#about-headline h2{
+  margin: 20px 0 0 0;
+}
+
+#about-headline:after { /* the line under the headline */
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    width: 38%; /* Change width here */
+    padding-top: 0; /* How far down from header it is */
+    border-bottom: 1px solid black; /* Border look */
+  }
+
+
+#about-container {
+  width: 900px;
+  height: 550px;
+  margin: auto;
+}
+
+#about-text {
+  width: 420px;
+  text-align: left;
+  float: left;
+  margin-right: 20px;
+}
+
+#about-picture {
+  height: 420px;
+  width: 400px;
+  margin-top: 20px;
+  float: left;
+  background: url('../img/pic-sara.jpg');
+}
+
+#about-social-media {
+  clear: left;
+  height: 50px;
+  width: 600px;
+}
+
+#photo-cred {
+  float: right;
+  margin-right: 60px;
+  line-height: 2px;
+}
+
+#photo-cred p {
+  font-size: 14px;
+}
+
+/*** TALENT BOX ***/
+#talent-container {
+  width: 100%;
+  height: 510px;
+  margin-bottom: 70px;
+  background: url('../img/talents-pic.jpg') no-repeat;
+  background-size: 100%;
+  padding-top: 2px;
+}
+
+#talents-headline {
+  height: 45px;
+  margin-left: 74px;
+}
+
+#talents-headline h2{
+  margin: 10px 0 0 0;
+}
+
+#talents-headline:after { /* the line under the headline */
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    width: 16%; /* Change width here */
+    padding-top: 0; /* How far down from header it is */
+    border-bottom: 1px solid black; /* Border look */
+  }
+
+
+.talents {
+  width: 1200px;
+  margin-left: 220px;
+}
+
+.talent-block {
+  text-align: center;
+  width: 175px;
+  height: auto;
+  float: left;
+  margin-right: 70px;
+}
+
+.talents img {
+  padding-top: 20px;
+}
+
+.talents h3 {
+  margin: 0;
+}
+
+.talents p {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#talent-contact {
+  clear: both;
+  width: 600px;
+  height: 30px;
+  margin: auto;
+  background: #192543;
+}
+
+#talent-contact a {
+  color: #faf9f5;
+  text-decoration: none;
+}
+
+#talent-contact p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+
+/*** PORTFOLIO ***/
+#portfolio-headline {
+  height: 45px;
+  margin: auto;
+}
+
+#portfolio-headline h2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+#portfolio-headline:after { /* the line under the headline */
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    width: 10%; /* Change width here */
+    padding-top: 0; /* How far down from header it is */
+    border-bottom: 1px solid black; /* Border look */
+  }
+
+#portfolio-text {
+    margin: auto;
+    height: 60px;
+    margin-top: 5px;
+}
+
+#portfolio-text p {
+  text-align: center;
+}
+
+#portfolio-parts {
+  width: 620px;
+  height: 55px;
+  margin-left: 300px;
+}
+
+.parts {
+  background-color: #192543;
+  width: 190px;
+  height: 35px;
+  display: inline-block;
+}
+
+.parts h3 {
+  color: #faf9f5;
+  font-size: 20px;
+  line-height: 1px;
+  font-weight: lighter;
+}
+
+/***** PIC GRID *******/
+
+.container {
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
+.grid-pic {
+  float: left;
+  margin-right: 5px;
+  width: 290px;
+  height: 423px;
+}
+
+/*** .left {
+  width: 290px;
+  height: 423px;
+}
+***/
+
+.middle {
+  width: 190px;
+  height: 485px;
+  float: left;
+  margin-right: 5px;
+}
+/***
+.right {
+  width: 290px;
+  height: 423px;
+}
+***/
+
+#start-top {
+  width: 190px;
+  height: 235px;
+  background: url('../img/start-visual.png');
+  margin-bottom: 5px;
+}
+
+#start-bottom {
+  width: 190px;
+  height: 235px;
+  background: url('../img/start-graphic.png');
+}
+
+#start-left {
+  background: url('../img/start-branding.png');
+}
+
+#start-right {
+  background: url('../img/start-webdev.png');
+}
+
+#portfolio-left {
+  background: url('../img/portfolio/austen-cut.png');
+}
+
+#portfolio-right {
+  background: #bac6e5;
+}
+
+#portfolio-top {
+  height: 150px;
+  width: 190px;
+  background: url('../img/portfolio/rouge-cut.png');
+  margin-bottom: 5px;
+}
+
+#portfolio-middle {
+  height: 150px;
+  width: 190px;
+  background: #bac6e5;
+  margin-bottom: 5px;
+}
+
+#portfolio-bottom {
+  height: 150px;
+  width: 190px;
+  background: #bac6e5;
+}
+
+
+
+/*** CONTACT ***/
+#contact-headline {
+  height: 45px;
+  margin: 0 auto;
+}
+
+#contact-headline h2 {
+  margin: 20px 0 0 0;
+}
+
+#contact-headline:after { /* the line under the headline */
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    width: 15%; /* Change width here */
+    padding-top: 0; /* How far down from header it is */
+    border-bottom: 1px solid black; /* Border look */
+  }
+
+#contact-text {
+  margin: 0 auto;
+}
+
+#contact-text p {
+  text-align: center;
+}
+
+#contact-social-media {
+  width: 600px;
+  padding-left: 400px;
+  margin: 0 auto;
+}
+
+#contact-form {
+  background: #192543;
+  width: 600px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+#contact-form:hover {
+  background-color: #bac6e5;
+}
+
+#contact-form h3 {
+  color: #faf9f5;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+
+
+/*** FOOTER ***/
+footer { /* this is the container */
+  position: fixed;
+  background: #192543;
+  bottom: 0;
+  left: 0;
+  height: 54px;
+  width: 100%;
+}
+
+#footer { /* this is the things IN the footer */
+  padding-left: 54px;
+  width: 1200px;
+}
+
+footer p {
+  color: #faf9f5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-bottom: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#credits {
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  line-height: 2px;
+  color: #faf9f5;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+footer a { /* for the links */
+  text-decoration: none;
+  color: #faf9f5;
+}
