@@ -47,6 +47,10 @@ a {
   opacity: 0.8;
 }
 
+.hover-highlight:hover{
+  color: #bac6e5;
+}
+
 /******** GRID *********/
 .full-width {
   width: 1200px;
@@ -112,11 +116,6 @@ main a {
 
 
 /*** LANDING PAGE ***/
-/** #hello  #intro {
-  width: 600px;
-  margin: auto;
-  text-align: center;
-} **/
 
 #welcome-headline {
   height: 25px;
@@ -346,24 +345,12 @@ main a {
   height: 423px;
 }
 
-/*** .left {
-  width: 290px;
-  height: 423px;
-}
-***/
-
 .middle {
   width: 190px;
   height: 485px;
   float: left;
   margin-right: 5px;
 }
-/***
-.right {
-  width: 290px;
-  height: 423px;
-}
-***/
 
 #start-top {
   width: 190px;
@@ -391,7 +378,7 @@ main a {
 }
 
 #portfolio-right {
-  background: #bac6e5;
+  background: url('../img/portfolio/expressen-utoya.jpg');
 }
 
 #portfolio-top {
