@@ -51,6 +51,10 @@ a {
   color: #bac6e5;
 }
 
+.blue-text {
+  color: #bac6e5;
+}
+
 /******** GRID *********/
 .full-width {
   width: 1200px;
@@ -138,6 +142,7 @@ main a {
 #intro {
   margin: auto;
   height: 60px;
+  width: 650px;
   margin-top: 35px;
 }
 
@@ -330,6 +335,102 @@ main a {
   font-weight: lighter;
 }
 
+.coming-soon {
+  color: #d6def2;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+  line-height: 150px;
+}
+
+/**** POPUPS ***/
+.project-text {
+  opacity: 1;
+}
+
+.project-title { /* popup title */
+  font-family: 'Oswald', sans-serif;
+  font-size: 23px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.project-company { /* popup company name */
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 10px;
+  text-transform: uppercase;
+  color: black;
+}
+
+#portfolio-left .project-text { /* this is the actual popup & text */
+  visibility: hidden;
+  width: 190px;
+  background-color: #faf9f5;
+  color: black;
+  font-family: arial;
+  font-size: 15px;
+  text-align: left;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+
+}
+
+#portfolio-left:hover .project-text { /* this shows the popup on hover over */
+  visibility: visible;
+  box-shadow: 4px 4px 10px black;
+}
+
+#portfolio-top .project-text { /* this is the actual popup & text */
+  visibility: hidden;
+  width: 190px;
+  background-color: #faf9f5;
+  color: black;
+  font-family: arial;
+  font-size: 15px;
+  text-align: left;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+
+}
+
+#portfolio-top:hover .project-text { /* this shows the popup on hover over */
+  visibility: visible;
+  box-shadow: 4px 4px 10px black;
+}
+
+#portfolio-right .project-text { /* this is the actual popup & text */
+  visibility: hidden;
+  width: 190px;
+  background-color: #faf9f5;
+  color: black;
+  font-family: arial;
+  font-size: 15px;
+  text-align: left;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+
+}
+
+#portfolio-right:hover .project-text { /* this shows the popup on hover over */
+  visibility: visible;
+  box-shadow: 4px 4px 10px black;
+
+}
+
+
+
+
 /***** PIC GRID *******/
 
 .container {
@@ -375,10 +476,13 @@ main a {
 
 #portfolio-left {
   background: url('../img/portfolio/austen-cut.png');
+  position: relative;
 }
+
 
 #portfolio-right {
   background: url('../img/portfolio/expressen-utoya.jpg');
+  position: relative;
 }
 
 #portfolio-top {
@@ -386,6 +490,7 @@ main a {
   width: 190px;
   background: url('../img/portfolio/rouge-cut.png');
   margin-bottom: 5px;
+  position: relative;
 }
 
 #portfolio-middle {
