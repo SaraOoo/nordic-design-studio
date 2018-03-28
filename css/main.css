@@ -55,6 +55,10 @@ a {
   color: #bac6e5;
 }
 
+.headline {
+  height: 45px;
+  margin: auto;
+}
 /******** GRID *********/
 .full-width {
   width: 1200px;
@@ -71,6 +75,7 @@ header {
   margin: auto;
   border-bottom: 1px solid black;
 }
+
 #nods-logo {
   margin-top: 15px;
   margin-left: -20px;
@@ -80,6 +85,7 @@ header a {
   text-decoration: none;
   color: black;
 }
+
 /************ NAV BAR ************/
 nav {
   float: right;
@@ -107,7 +113,8 @@ nav li a:hover {
 #you-are-here a {
   color: #bac6e5;
 }
-/********** MAIN *********/
+
+/********** MAIN **********/
 main {
   width: 1200px;
   margin: auto;
@@ -118,32 +125,17 @@ main a {
   color: black;
 }
 
-
-/*** LANDING PAGE ***/
-
-#welcome-headline {
-  height: 25px;
-  margin: auto;
-}
+/********** LANDING PAGE **********/
 #welcome-headline h2 {
   text-align: center;
   margin: 20px 0 0 0;
-}
-
-#welcome-headline:after { /* the line under the headline */
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto;
-    width: 45%; /* Change width here */
-    padding-top: 0; /* How far down from header it is */
-    border-bottom: 1px solid black; /* Border look */
 }
 
 #intro {
   margin: auto;
   height: 60px;
   width: 650px;
-  margin-top: 35px;
+  margin-top: 5px;
 }
 
 #intro p {
@@ -152,24 +144,9 @@ main a {
 
 
 /*** ABOUT ***/
-#about-headline {
-  height: 45px;
-  margin: auto;
-}
-
 #about-headline h2{
   margin: 20px 0 0 0;
 }
-
-#about-headline:after { /* the line under the headline */
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto;
-    width: 38%; /* Change width here */
-    padding-top: 0; /* How far down from header it is */
-    border-bottom: 1px solid black; /* Border look */
-  }
-
 
 #about-container {
   width: 900px;
@@ -226,16 +203,6 @@ main a {
 #talents-headline h2{
   margin: 10px 0 0 0;
 }
-
-#talents-headline:after { /* the line under the headline */
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto;
-    width: 16%; /* Change width here */
-    padding-top: 0; /* How far down from header it is */
-    border-bottom: 1px solid black; /* Border look */
-  }
-
 
 .talents {
   width: 1200px;
@@ -295,15 +262,6 @@ main a {
   text-align: center;
   margin: 20px 0 0 0;
 }
-
-#portfolio-headline:after { /* the line under the headline */
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto;
-    width: 10%; /* Change width here */
-    padding-top: 0; /* How far down from header it is */
-    border-bottom: 1px solid black; /* Border look */
-  }
 
 #portfolio-text {
     margin: auto;
@@ -425,11 +383,7 @@ main a {
 #portfolio-right:hover .project-text { /* this shows the popup on hover over */
   visibility: visible;
   box-shadow: 4px 4px 10px black;
-
 }
-
-
-
 
 /***** PIC GRID *******/
 
@@ -479,7 +433,6 @@ main a {
   position: relative;
 }
 
-
 #portfolio-right {
   background: url('../img/portfolio/expressen-utoya.jpg');
   position: relative;
@@ -507,25 +460,15 @@ main a {
 }
 
 
-
 /*** CONTACT ***/
 #contact-headline {
   height: 45px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #contact-headline h2 {
   margin: 20px 0 0 0;
 }
-
-#contact-headline:after { /* the line under the headline */
-    content: ""; /* This is necessary for the pseudo element to work. */
-    display: block; /* This will put the pseudo element on its own line. */
-    margin: 0 auto;
-    width: 15%; /* Change width here */
-    padding-top: 0; /* How far down from header it is */
-    border-bottom: 1px solid black; /* Border look */
-  }
 
 #contact-text {
   margin: 0 auto;
