@@ -56,6 +56,10 @@ a {
   color: #bac6e5;
 }
 
+.purple-text {
+  color: purple;
+}
+
 .headline {
   height: 45px;
   margin: auto;
@@ -320,13 +324,14 @@ main a {
   font-size: 14px;
   line-height: 10px;
   text-transform: uppercase;
-  color: black;
+  color: #192543;
 }
 
 #portfolio-left .project-text { /* this is the actual popup & text */
   visibility: hidden;
   width: 190px;
-  background-color: #faf9f5;
+  background-color: #b2b2b2;
+  opacity: 0.9;
   color: black;
   font-family: arial;
   font-size: 15px;
@@ -341,13 +346,15 @@ main a {
 
 #portfolio-left:hover .project-text { /* this shows the popup on hover over */
   visibility: visible;
-  box-shadow: 4px 4px 10px black;
+  border: 0.5px dotted #a1a1a1;
+
 }
 
 #portfolio-top .project-text { /* this is the actual popup & text */
   visibility: hidden;
   width: 190px;
-  background-color: #faf9f5;
+  background-color: #b2b2b2;
+  opacity: 0.9;
   color: black;
   font-family: arial;
   font-size: 15px;
@@ -362,13 +369,14 @@ main a {
 
 #portfolio-top:hover .project-text { /* this shows the popup on hover over */
   visibility: visible;
-  box-shadow: 4px 4px 10px black;
+  border: 0.5px dotted #a1a1a1;
 }
 
 #portfolio-right .project-text { /* this is the actual popup & text */
   visibility: hidden;
   width: 190px;
-  background-color: #faf9f5;
+  background-color: #b2b2b2;
+  opacity: 0.9;
   color: black;
   font-family: arial;
   font-size: 15px;
@@ -383,7 +391,7 @@ main a {
 
 #portfolio-right:hover .project-text { /* this shows the popup on hover over */
   visibility: visible;
-  box-shadow: 4px 4px 10px black;
+  border: 0.5px dotted #a1a1a1;
 }
 
 /***** PIC GRID *******/
