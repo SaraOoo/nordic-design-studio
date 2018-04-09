@@ -402,24 +402,12 @@ main a {
   background: url('../img/start-webdev.png');
 }
 
-/*
-#portfolio-left {
-  background: url('../img/portfolio/austen-cut.png');
-  position: relative;
-}
-*/
 
-#portfolio-right {
-  background: url('../img/portfolio/expressen-utoya.jpg');
-  position: relative;
-}
 
 #portfolio-top {
   height: 150px;
   width: 190px;
-  background: url('../img/portfolio/rouge-cut.png');
   margin-bottom: 5px;
-  position: relative;
 }
 
 #portfolio-middle {
