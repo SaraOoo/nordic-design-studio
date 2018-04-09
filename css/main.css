@@ -66,36 +66,6 @@ a {
   margin: auto;
 }
 
-
-
-/********* NEW HOVER IMAGE THINGS *********/
-.background-figure {
-  background: #bac6e5;
-}
-
-figure figcaption {
-  -webkit-backface-visibility: hidden;
-backface-visibility: hidden;
-}
-
-figure.background-figure:hover img {
-  opacity: 0.1;
-}
-
-figure.background-figure p {
-
-  position: absolute;
-  width: 240px;
-  opacity: 0;
-  top: 260px;
-  padding: 25px;
-}
-
-figure.background-figure:hover p {
-  opacity: 1;
-}
-
-
 /******** GRID *********/
 .full-width {
   width: 1200px;
@@ -339,24 +309,56 @@ main a {
 }
 
 /**** POPUPS ***/
-.project-text {
+/* text styles */
+.project-text { /* the text in the popup */
   font-family: 'Raleway', serif;
+  font-size: 15px;
+  line-height: 17px;
 }
 
-.project-title { /* popup title */
+.project-title {
   font-family: 'Oswald', sans-serif;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 20px;
   text-transform: uppercase;
   color: black;
 }
 
-.project-company { /* popup company name */
+.project-company {
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 10px;
   text-transform: uppercase;
   color: #192543;
+}
+
+.background-figure { /* this is the bkg that shows up on hover */
+  background: #bac6e5;
+}
+
+figure.background-figure:hover img { /* this dims the pic on hover */
+  opacity: 0.1;
+}
+
+figure figcaption {
+  -webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+figure.background-figure:hover p {
+  opacity: 1;
+}
+
+figure.background-figure p {
+  position: absolute;
+  width: 240px;
+  opacity: 0;
+  top: 250px;
+  padding: 10px;
+}
+
+figure.small-box p { /*this is for the smaller boxes */
+  width: 170px;
 }
 
 /***** PIC GRID *******/
@@ -401,7 +403,6 @@ main a {
 #start-right {
   background: url('../img/start-webdev.png');
 }
-
 
 
 #portfolio-top {
