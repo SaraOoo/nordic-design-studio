@@ -58,12 +58,44 @@ a {
 
 .purple-text {
   color: purple;
+  font-weight: bold;
 }
 
 .headline {
   height: 45px;
   margin: auto;
 }
+
+
+
+/********* NEW HOVER IMAGE THINGS *********/
+.background-figure {
+  background: #bac6e5;
+}
+
+figure figcaption {
+  -webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+figure.background-figure:hover img {
+  opacity: 0.1;
+}
+
+figure.background-figure p {
+
+  position: absolute;
+  width: 240px;
+  opacity: 0;
+  top: 260px;
+  padding: 25px;
+}
+
+figure.background-figure:hover p {
+  opacity: 1;
+}
+
+
 /******** GRID *********/
 .full-width {
   width: 1200px;
@@ -308,7 +340,7 @@ main a {
 
 /**** POPUPS ***/
 .project-text {
-  opacity: 1;
+  font-family: 'Raleway', serif;
 }
 
 .project-title { /* popup title */
@@ -325,73 +357,6 @@ main a {
   line-height: 10px;
   text-transform: uppercase;
   color: #192543;
-}
-
-#portfolio-left .project-text { /* this is the actual popup & text */
-  visibility: hidden;
-  width: 190px;
-  background-color: #b2b2b2;
-  opacity: 0.9;
-  color: black;
-  font-family: arial;
-  font-size: 15px;
-  text-align: left;
-  padding: 8px;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 105%;
-
-}
-
-#portfolio-left:hover .project-text { /* this shows the popup on hover over */
-  visibility: visible;
-  border: 0.5px dotted #a1a1a1;
-
-}
-
-#portfolio-top .project-text { /* this is the actual popup & text */
-  visibility: hidden;
-  width: 190px;
-  background-color: #b2b2b2;
-  opacity: 0.9;
-  color: black;
-  font-family: arial;
-  font-size: 15px;
-  text-align: left;
-  padding: 8px;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 105%;
-
-}
-
-#portfolio-top:hover .project-text { /* this shows the popup on hover over */
-  visibility: visible;
-  border: 0.5px dotted #a1a1a1;
-}
-
-#portfolio-right .project-text { /* this is the actual popup & text */
-  visibility: hidden;
-  width: 190px;
-  background-color: #b2b2b2;
-  opacity: 0.9;
-  color: black;
-  font-family: arial;
-  font-size: 15px;
-  text-align: left;
-  padding: 8px;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 105%;
-
-}
-
-#portfolio-right:hover .project-text { /* this shows the popup on hover over */
-  visibility: visible;
-  border: 0.5px dotted #a1a1a1;
 }
 
 /***** PIC GRID *******/
@@ -437,10 +402,12 @@ main a {
   background: url('../img/start-webdev.png');
 }
 
+/*
 #portfolio-left {
   background: url('../img/portfolio/austen-cut.png');
   position: relative;
 }
+*/
 
 #portfolio-right {
   background: url('../img/portfolio/expressen-utoya.jpg');
