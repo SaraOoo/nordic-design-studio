@@ -220,7 +220,7 @@ main a {
 
 #talents-headline {
   height: 45px;
-  margin-left: 74px;
+  margin-left: 87px;
 }
 
 #talents-headline h2{
@@ -228,8 +228,8 @@ main a {
 }
 
 .talents {
-  width: 1200px;
-  margin-left: 220px;
+  width: 800px;
+  margin-left: 350px;
 }
 
 .talent-block {
@@ -255,15 +255,25 @@ main a {
 
 #talent-contact {
   clear: both;
-  width: 600px;
+  width: 660px;
   height: 30px;
-  margin: auto;
+  margin-left: 355px;
   background: #192543;
+}
+
+#talent-contact:hover {
+  background: #bac6e5;
+  box-shadow: 3px 3px 6px grey;
 }
 
 #talent-contact a {
   color: #faf9f5;
   text-decoration: none;
+}
+
+#talent-contact:hover a {
+  color: black;
+  font-weight: bold;
 }
 
 #talent-contact p {
@@ -515,7 +525,8 @@ footer p {
   color: #faf9f5;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
-  margin-bottom: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -523,7 +534,7 @@ footer p {
 #credits {
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
-  line-height: 2px;
+  line-height: 7px;
   color: #faf9f5;
   text-align: center;
   text-transform: capitalize;
