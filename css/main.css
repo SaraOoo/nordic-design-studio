@@ -143,7 +143,7 @@ main a {
 }
 
 /*******************************
-        LANDING PAGE
+        START PAGE
 *******************************/
 #welcome-headline h2 {
   text-align: center;
@@ -308,13 +308,6 @@ main a {
   text-align: center;
 }
 
-/* this is the buttons that are commented out
-#portfolio-parts {
-  width: 620px;
-  height: 55px;
-  margin-left: 300px;
-} */
-
 .parts {
   background-color: #192543;
   width: 190px;
@@ -367,7 +360,15 @@ main a {
   background: #bac6e5;
 }
 
+.background-figure-two { /* this is the bkg that shows up on hover */
+  background: #bac6e5;
+}
+
 figure.background-figure:hover img { /* this dims the pic on hover */
+  opacity: 0.1;
+}
+
+figure.background-figure-two:hover img { /* this dims the pic on hover */
   opacity: 0.1;
 }
 
@@ -380,11 +381,23 @@ figure.background-figure:hover p {
   opacity: 1;
 }
 
+figure.background-figure-two:hover p {
+  opacity: 1;
+}
+
 figure.background-figure p {
   position: absolute;
   width: 240px;
   opacity: 0;
   top: 215px; /*this is the positioning from top */
+  padding: 10px;
+}
+
+figure.background-figure-two p {
+  position: absolute;
+  width: 240px;
+  opacity: 0;
+  top: 395px; /*this positioning is different */
   padding: 10px;
 }
 
@@ -440,14 +453,14 @@ figure.small-box p { /*this is for the smaller boxes */
 #portfolio-top {
   height: 165px;
   width: 190px;
-
+  transition: 0.3s;
 }
 
 #portfolio-middle {
   height: 165px;
   width: 190px;
-  background: #A9A9A9;
-
+  margin-top: 15px;
+  transition: 0.3s;
 }
 
 #portfolio-bottom {
