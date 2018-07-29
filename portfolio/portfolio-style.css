@@ -1,0 +1,154 @@
+.portfolio-buttons {
+  margin-left: 350px;
+  margin-top: 30px;
+}
+
+.button {
+  float: left;
+  margin-right: 20px;
+  width: 120px;
+  height: 30px;
+  background: linear-gradient(to right, #155bdb, #1148ad);
+  border-radius: 25px;
+}
+
+.web-development, .newspaper-design, .show-everything {
+  width: 180px;
+}
+
+.show-everything {
+  opacity: 0.8;
+}
+
+.button p {
+  line-height: 28px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.button:hover{
+  background: #ff0060;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.grid-container {
+  width: 1200px;
+  height: 868px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 28px 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  background: white;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+.cell:hover {
+  opacity: 1;
+}
+
+.journalism-pic {
+  float: left;
+  margin-bottom: 15px;
+/*** add a background here to make hover-text easier to read */
+}
+
+.journalism-pic-bottom {
+  float: left;
+  margin-right: 53px;
+}
+
+.journalism-pic-bottom-1 {
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 53px;
+  margin-left: 200px;
+}
+
+.journalism-pic:hover img {
+  opacity: 0.1;
+}
+.journalism-pic-bottom-1:hover img {
+  opacity: 0.1;
+}
+.journalism-pic-bottom:hover img {
+  opacity: 0.1;
+}
+
+.journalism-pic:hover p{
+  opacity: 1;
+}
+
+.journalism-pic-bottom-1:hover p{
+  opacity: 1;
+}
+
+.journalism-pic-bottom:hover p{
+  opacity: 1;
+}
+/*****************
+***** HOVER-TEXT ****
+******************/
+.hover-text { /*everything apart from positioning */
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 340px;
+  opacity: 0;
+  padding: 20px;
+  text-align: left;
+  font-size: 15px;
+  position: absolute;
+}
+
+.first-hover  {
+  top: 370px;
+}
+
+.bottom-1 {
+  top: 935px;
+}
+
+.bottom-1-journalism {
+  top: 1260px;
+}
+
+.bottom-hover {
+  top: 935px;
+}
+.bottom-hover-journalism {
+  top: 1260px;
+}
+
+.second-hover {
+  top: 980px;
+}
+
+.hover-headline, .hover-subline {
+  font-family: 'Raleway';
+  text-transform: uppercase;
+}
+
+.hover-headline {
+  font-size: 20px;
+  font-weight: bold;
+  color: #155bdb;
+}
+
+.hover-subline {
+  font-size: 12px;
+}
+.gemen {
+  text-transform: none;
+}
+
+.hover-date {
+  font-size: 11px;
+  margin-bottom: 30px;
+}
