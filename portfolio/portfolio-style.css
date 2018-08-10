@@ -12,7 +12,7 @@
   border-radius: 25px;
 }
 
-.web-development, .newspaper-design, .show-everything {
+.web-development, .graphic-design, .show-everything {
   width: 180px;
 }
 
@@ -57,7 +57,6 @@
 .journalism-pic {
   float: left;
   margin-bottom: 15px;
-/*** add a background here to make hover-text easier to read */
 }
 
 .journalism-pic-bottom {

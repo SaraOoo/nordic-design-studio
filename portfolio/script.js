@@ -5,7 +5,7 @@
       $(".news").css({opacity:0});
     });
 
-    $(".newspaper-design").click(function(){
+    $(".graphic-design").click(function(){
       $(".news").css({opacity:0.8});
       $(".webDev").css({opacity:0});
     });
