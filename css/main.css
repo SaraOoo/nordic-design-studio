@@ -51,7 +51,7 @@ main {
   height: 900px;
 }
 #services-page {
-  height: 400px;
+  height: 360px;
 }
 
 #about-page {
@@ -141,7 +141,7 @@ nav ul li a:hover {
 
 .contact-button-services {
   position: absolute;
-  top: 530px;
+  top: 470px;
   left: 650px;
   width: 100px;
   height: 30px;
