@@ -40,6 +40,10 @@ a, a:visited, a:active, a:link {
   font-weight: 600;
 }
 
+.clear-floats {
+  clear: both;
+}
+
 main {
   clear: both;
   width: 1366px;
@@ -63,7 +67,7 @@ main {
 }
 
 #portfolio-page {
-  height: 1200px;
+  height: 1500px;
 }
 
 /*****************
