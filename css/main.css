@@ -260,18 +260,6 @@ nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-#summertime h2 {
-  font-family: 'Kaushan Script';
-  font-size: 30px;
-  color: #ff0060;
-}
-#summertime {
-  transform: rotate(15deg);
-  position: absolute;
-  top: 300px;
-  left: 680px;
-}
-
 .left-align-text {
   width: 500px;
   float: left;
@@ -286,11 +274,17 @@ nav ul li a:hover {
 
 .about-pic {
   float: left;
-  margin-bottom: 67px;
-
+  width: 400px;
+  height: 650px;
+  overflow: hidden;
 }
 
-
+.big-quote {
+  color: #155bdb;
+  font-size: 18px;
+  font-family: "Raleway";
+text-transform: uppercase;
+}
 
 /*****************
 ***** CONTACT-FORM ****
