@@ -2,7 +2,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: #696969;
   font-size: 16px;
-  line-height: 27px;
+  line-height: 28px;
 }
 
 .about-ul {
@@ -24,7 +24,7 @@ a, a:visited, a:active, a:link {
 }
 
 .text-link {
-  color: #696969;
+  color: #ff0060;
   text-decoration: underline !important;
 }
 
@@ -59,7 +59,7 @@ main {
 }
 
 #about-page {
-  height: 1200px;
+  height: 800px;
 }
 
 #contact-page {
@@ -67,7 +67,7 @@ main {
 }
 
 #portfolio-page {
-  height: 1500px;
+  height: 1300px;
 }
 
 /*****************
@@ -344,7 +344,7 @@ input[type=submit]:hover {
 footer {
   clear: both;
   background-color: #ededed;
-  height: 70px;
+  height: 78px;
   width: 1366;
   text-align: center;
   padding: 5px;
