@@ -266,8 +266,8 @@ nav ul li a:hover {
   text-align: left;
   margin-left: 200px;
   margin-right: 109px;
-
 }
+
 .left-align-text p {
   margin-bottom: 20px;
 }
@@ -283,7 +283,7 @@ nav ul li a:hover {
   color: #155bdb;
   font-size: 18px;
   font-family: "Raleway";
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 /*****************
