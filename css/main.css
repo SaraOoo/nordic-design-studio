@@ -1,3 +1,8 @@
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   color: #696969;
@@ -12,11 +17,6 @@ p {
   list-style-type: circle;
   margin-left: 60px;
   line-height: 35px;
-}
-
-h1, h2, h3, h4 {
-  font-family: 'Raleway', sans-serif;
-  color: black;
 }
 
 a, a:visited, a:active, a:link {
@@ -48,8 +48,10 @@ main {
   clear: both;
   width: 1366px;
   background-color: white;
-  margin-top: 140px;
+  margin-top: 40px;
 }
+
+/*** PAGE HEIGTS ***/
 
 #home-page {
   height: 900px;
@@ -70,24 +72,20 @@ main {
   height: 1300px;
 }
 
-/*****************
-***** LOGO ****
-******************/
+/*** LOGO ***/
 
 .nods-logo img {
-  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
   display: block;
+  width: 20%;
 }
 
-/*****************
-***** NAV BAR ****
-******************/
+/*** NAV BAR ***/
+
 nav {
-  position: absolute;
-  top: 200px;
   width: 1366px;
   height: 50px;
   text-align: center;
@@ -104,7 +102,6 @@ nav ul li a {
   text-transform: uppercase;
   color: black;
   text-decoration: none;
-
 }
 
 nav ul li a:hover {
@@ -123,8 +120,8 @@ nav ul li a:hover {
 
 .contact-button {
   position: absolute;
-  top: -6px;
-  left: 900px;
+  top: 308px;
+  left: 890px;
   width: 100px;
   height: 30px;
   background: linear-gradient(to right, #155bdb, #1148ad);
@@ -142,6 +139,8 @@ nav ul li a:hover {
   background: #155bdb;
   text-decoration: none;
 }
+
+/*** Contact button on service page ***/
 
 .contact-button-services {
   position: absolute;
@@ -165,9 +164,7 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-/*****************
-***** MAIN ****
-******************/
+/*** MAIN ***/
 
 .full-width {
   margin: auto;
@@ -182,9 +179,7 @@ nav ul li a:hover {
   width: 700px;
 }
 
-/*****************
-***** HOME ****
-******************/
+/*** HOME ***/
 
 .hello h1 {
   font-family: 'Kaushan Script';
@@ -202,6 +197,7 @@ nav ul li a:hover {
   display: inline-block;
   margin-right: 28px;
 }
+
 .navigate a:last-child{
   margin-right: 0;
 }
@@ -251,9 +247,8 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 
-/*****************
-***** PAGES ****
-******************/
+/*** PAGES ***/
+
 .headline {
   font-size: 30px;
   text-transform: uppercase;
@@ -286,9 +281,8 @@ nav ul li a:hover {
   text-transform: uppercase;
 }
 
-/*****************
-***** CONTACT-FORM ****
-******************/
+/*** CONTACT-FORM ***/
+
 label {
   font-family: 'Open Sans';
   font-size: 15px;
@@ -332,9 +326,8 @@ input[type=submit]:hover {
     margin-right: auto;
 }
 
-/*****************
-***** FOOTER ****
-******************/
+/*** FOOTER ***/
+
 footer {
   clear: both;
   background-color: #ededed;
