@@ -4,9 +4,7 @@
     width: 1100px;
 }
 
-/*****************
-***** BUTTONS ****
-******************/
+/*** BUTTONS ***/
 
 .portfolio-buttons {
   margin-left: 350px;
@@ -44,9 +42,8 @@
 }
 
 
-/*****************
-***** PORTFOLIO-GRID ****
-******************/
+/*** PORTFOLIO-GRID***/
+
 .grid-container {
   width: 1200px;
   height: 868px;
@@ -68,9 +65,8 @@
   opacity: 1;
 }
 
-/*****************
-***** PICTURES ON PAGES ****
-******************/
+/*** PICTURES ON PAGES ***/
+
 .journalism-pic { /*** pic on the right ***/
   float: left;
   margin-bottom: 25px;
@@ -86,9 +82,7 @@
   margin-right: 53px;
 }
 
-/*****************
-***** OPACITY ON PICTURES W HOVER ****
-******************/
+/*** OPACITY ON PICTURES W HOVER ***/
 
 .journalism-pic:hover img {
   opacity: 0.1;
@@ -109,9 +103,9 @@
 .journalism-pic-bottom:hover p{
   opacity: 1;
 }
-/*****************
-***** HOVER-TEXT ****
-******************/
+
+/*** HOVER-TEXT ***/
+
 .hover-text { /*everything apart from positioning */
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -169,9 +163,8 @@
   margin-bottom: 30px;
 }
 
-/*****************
-***** PAGES ****
-******************/
+/*** PAGES ***/
+
 .portfolio-main-image {
   margin-bottom: 20px;
 }
